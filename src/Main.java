@@ -57,8 +57,8 @@ public class Main {
     public static void task8() {
         System.out.println("Задача 8");
         int contribution = 29000;
-        int total = 0;
-        for (int i = 0; i < 12; i++) {
+        int total = 1;
+        for (int i = 0; i < 13; i++) {
             total = total + contribution;
             System.out.println("Месяц " + i + " сумма накоплений равна " + total + " рублей");
         }
@@ -67,7 +67,7 @@ public class Main {
         System.out.println("Задача 9");
         int contribution = 29000;
         int total = 0;
-        for (int i = 0; i < 12; i++) {
+        for (int i = 1; i < 13; i++) {
             total = total + total/100;
             total = total + contribution;
             System.out.println("Месяц " + i + " сумма накоплений равна " + total + " рублей");
