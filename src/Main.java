@@ -7,6 +7,7 @@ public class Main {
         task5();
         task6();
         task7();
+        task8();
     }
     public static void task1() {
         System.out.println("Задача 1");
@@ -48,6 +49,16 @@ public class Main {
         System.out.println("Задача 7");
         for (int i = 1; i < 1024; i = i * 2) {
             System.out.println(i);
+        }
+    }
+
+    public static void task8() {
+        System.out.println("Задача 8");
+        int savings = 29000;
+        int total = 0;
+        for (int i = 0; i < 12; i++) {
+            total = total + savings;
+            System.out.println("Месяц " + i + " сумма накоплений равна " + total + " рублей");
         }
     }
 }
